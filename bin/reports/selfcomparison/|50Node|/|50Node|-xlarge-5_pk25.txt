@@ -1,0 +1,37 @@
+
+totalMsgCreate:	2940
+totalMsgSent:	2860
+totalMsgReceived:	2476
+totalCorruptedKeyReceived:	174
+totalCorruptedMsgReceived:	57
+totalUncorruptedKeyReceived:	586
+totalUncorruptedMsgReceived:	1659
+totalEmptyPacket:	0
+totalKeyShareSent:	1144
+totalDataFragSent:	1716
+totalKeyReceived:	119
+totalDataReceived:	119
+totalFileDecoded:	31
+totalFileSkippedDecode:	88
+totalFileSent:	147
+totalFileReceived:	118
+totalCorruptedFileReceived:	0
+totalCompromisedFileMPE:	5
+totalCompromisedFileOur:	0
+highPriorityFileReceived:	�%
+mediumPriorityFileReceived:	83.22%
+lowPriorityFileReceived:	�%
+shareEncodeTime:	270000.0
+shareDecodeTime:	.0
+totalEncodeTime:	980000.0
+totalDecodeTime:	180000.0
+cryptoTime:	97910000.0
+cryptoTimeExtra:	770000.0
+integrityComputationTimeInSender:	7.624E7
+integrityComputationTimeInReceiver:	 6.086E7
+totalHopCount:	22319
+avgKeyPossession:	12
+avgTimeDelayMPE:	124614.0
+avgTimeDelayOur:	134572.0
+DelayDistMPE:		21	11	1	5	18	17	20	10	9	1	0	3	2	0	0	1	0	0	0	0	0	0	0	0	0	0
+DelayDistOur:		0	3	28	7	18	17	20	9	9	1	0	3	2	0	0	1	0	0	0	0	0	0	0	0	0	0

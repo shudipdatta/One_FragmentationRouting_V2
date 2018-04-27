@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="src/lib/bcprov-jdk16-1.46.jar"/>
+	<classpathentry kind="lib" path="src/lib/CauchyRS.jar"/>
+	<classpathentry kind="lib" path="src/lib/com.google.collections.jar"/>
+	<classpathentry kind="lib" path="src/lib/com.google.guava_1.6.0.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/DTNConsoleConnection.jar"/>
+	<classpathentry kind="lib" path="src/lib/ECLA.jar"/>
+	<classpathentry kind="lib" path="src/lib/jna-3.2.5.jar"/>
+	<classpathentry kind="lib" path="src/lib/jna-3.3.0-platform.jar"/>
+	<classpathentry kind="lib" path="src/lib/jpbc-api-2.0.0.jar"/>
+	<classpathentry kind="lib" path="src/lib/jpbc-crypto-2.0.0.jar"/>
+	<classpathentry kind="lib" path="src/lib/jpbc-plaf-2.0.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,283 @@
+Simulation 1 input: all priority, small data
+1	18	a.jpg	1
+2	19	a.jpg	2
+1	16	a.jpg	3
+1	15	a.jpg	1
+3	19	a.jpg	2
+4	16	a.jpg	3
+5	1	a.jpg	1
+6	14	a.jpg	2
+7	12	a.jpg	3
+8	11	a.jpg	1
+9	0	a.jpg	2
+10	9	a.jpg	3
+11	8	a.jpg	1
+12	7	a.jpg	2
+13	6	a.jpg	3
+14	5	a.jpg	1
+14	18	a.jpg	2
+17	19	a.jpg	3
+19	16	a.jpg	1
+18	15	a.jpg	2
+15	16	a.jpg	3
+16	1	a.jpg	1
+15	14	a.jpg	2
+14	12	a.jpg	3
+13	11	a.jpg	1
+12	0	a.jpg	2
+11	9	a.jpg	3
+
+Simulation 2 input: all priority, medium data
+1	18	b.jpg	1
+2	19	b.jpg	2
+1	16	b.jpg	3
+1	15	b.jpg	1
+3	19	b.jpg	2
+4	16	b.jpg	3
+5	1	b.jpg	1
+6	14	b.jpg	2
+7	12	b.jpg	3
+8	11	b.jpg	1
+9	0	b.jpg	2
+10	9	b.jpg	3
+11	8	b.jpg	1
+12	7	b.jpg	2
+13	6	b.jpg	3
+14	5	b.jpg	1
+14	18	b.jpg	2
+17	19	b.jpg	3
+19	16	b.jpg	1
+18	15	b.jpg	2
+15	16	b.jpg	3
+16	1	b.jpg	1
+15	14	b.jpg	2
+14	12	b.jpg	3
+13	11	b.jpg	1
+12	0	b.jpg	2
+11	9	b.jpg	3
+
+Simulation 3 input: all priority, big data
+1	18	c.jpg	1
+2	19	c.jpg	2
+1	16	c.jpg	3
+1	15	c.jpg	1
+3	19	c.jpg	2
+4	16	c.jpg	3
+5	1	c.jpg	1
+6	14	c.jpg	2
+7	12	c.jpg	3
+8	11	c.jpg	1
+9	0	c.jpg	2
+10	9	c.jpg	3
+11	8	c.jpg	1
+12	7	c.jpg	2
+13	6	c.jpg	3
+14	5	c.jpg	1
+14	18	c.jpg	2
+17	19	c.jpg	3
+19	16	c.jpg	1
+18	15	c.jpg	2
+15	16	c.jpg	3
+16	1	c.jpg	1
+15	14	c.jpg	2
+14	12	c.jpg	3
+13	11	c.jpg	1
+12	0	c.jpg	2
+11	9	c.jpg	3
+
+Simulation 4 input: mixed data: low priority
+1	18	a.jpg	3
+2	19	b.jpg	3
+1	16	c.jpg	3
+1	15	a.jpg	3
+3	19	b.jpg	3
+4	16	c.jpg	3
+5	1	a.jpg	3
+6	14	b.jpg	3
+7	12	c.jpg	3
+8	11	a.jpg	3
+9	0	b.jpg	3
+10	9	c.jpg	3
+11	8	a.jpg	3
+12	7	b.jpg	3
+13	6	c.jpg	3
+14	5	a.jpg	3
+14	18	b.jpg	3
+17	19	c.jpg	3
+19	16	a.jpg	3
+18	15	b.jpg	3
+15	16	c.jpg	3
+16	1	a.jpg	3
+15	14	b.jpg	3
+14	12	c.jpg	3
+13	11	a.jpg	3
+12	0	b.jpg	3
+11	9	c.jpg	3
+
+Simulation 5 input: mixed data: medium priority
+1	18	a.jpg	2
+2	19	b.jpg	2
+1	16	c.jpg	2
+1	15	a.jpg	2
+3	19	b.jpg	2
+4	16	c.jpg	2
+5	1	a.jpg	2
+6	14	b.jpg	2
+7	12	c.jpg	2
+8	11	a.jpg	2
+9	0	b.jpg	2
+10	9	c.jpg	2
+11	8	a.jpg	2
+12	7	b.jpg	2
+13	6	c.jpg	2
+14	5	a.jpg	2
+14	18	b.jpg	2
+17	19	c.jpg	2
+19	16	a.jpg	2
+18	15	b.jpg	2
+15	16	c.jpg	2
+16	1	a.jpg	2
+15	14	b.jpg	2
+14	12	c.jpg	2
+13	11	a.jpg	2
+12	0	b.jpg	2
+11	9	c.jpg	2
+
+Simulation 6 input: mixed data: high priority
+1	18	a.jpg	1
+2	19	b.jpg	1
+1	16	c.jpg	1
+1	15	a.jpg	1
+3	19	b.jpg	1
+4	16	c.jpg	1
+5	1	a.jpg	1
+6	14	b.jpg	1
+7	12	c.jpg	1
+8	11	a.jpg	1
+9	0	b.jpg	1
+10	9	c.jpg	1
+11	8	a.jpg	1
+12	7	b.jpg	1
+13	6	c.jpg	1
+14	5	a.jpg	1
+14	18	b.jpg	1
+17	19	c.jpg	1
+19	16	a.jpg	1
+18	15	b.jpg	1
+15	16	c.jpg	1
+16	1	a.jpg	1
+15	14	b.jpg	1
+14	12	c.jpg	1
+13	11	a.jpg	1
+12	0	b.jpg	1
+11	9	c.jpg	1
+
+
+default setting
+## Scenario settings
+Scenario.name = Simulation_V0_Fix
+Scenario.simulateConnections = true
+Scenario.updateInterval = 2.0
+Scenario.endTime = 1000000
+Scenario.nrofHostGroups = 1
+
+
+## "Bluetooth" interface for all nodes
+btInterface.type = SimpleBroadcastInterface
+btInterface.transmitSpeed = 256k
+btInterface.transmitRange = 5
+
+## High speed, long range, interface for group
+highspeedInterface.type = SimpleBroadcastInterface
+highspeedInterface.transmitSpeed = 10M
+highspeedInterface.transmitRange = 10
+
+
+## Common settings for all groups
+Group.movementModel = ShortestPathMapBasedMovement
+Group.router = FragmentationRouter
+Group.routeFile = data/tram3.wkt
+Group.routeType = 1
+Group.waitTime = 15, 30
+Group.bufferSize = 20M
+
+# All nodes have the bluetooth and high transmission interface
+Group.nrofInterfaces = 2
+Group.interface1 = btInterface
+Group.interface2 = highspeedInterface
+
+# Walking speeds
+Group.speed = 0.5, 1
+Group.msgTtl = 990000
+Group.nrofHosts = 50
+Group.groupID = n
+
+
+## Map based movement -movement model specific settings
+MapBasedMovement.nrofMapFiles = 4
+MapBasedMovement.mapFile1 = data/roads.wkt
+MapBasedMovement.mapFile2 = data/main_roads.wkt
+MapBasedMovement.mapFile3 = data/pedestrian_paths.wkt
+MapBasedMovement.mapFile4 = data/shops.wkt
+
+## Movement model settings
+# seed for movement models' pseudo random number generator (default = 0)
+MovementModel.rngSeed = 1
+# World's size for Movement Models without implicit size (width, height; meters)
+MovementModel.worldSize = 4400, 3400
+# How long time to move hosts in the world before real simulation
+
+##############################
+## what type of simulation
+FragmentationRouter.Type=fixed
+#FragmentationRouter.Type=vary
+##############################
+
+## Setting for FragmentRouter
+FragmentationRouter.KeyShare_N=8
+FragmentationRouter.KeyShare_K=4
+FragmentationRouter.DataFragment_N=12
+FragmentationRouter.DataFragment_K=8
+FragmentationRouter.Malicious% = 10
+FragmentationRouter.Directory=Simulation_V0_Fix
+# multicopy
+FragmentationRouter.nrofCopies = 2
+FragmentationRouter.binaryMode = false
+
+
+## Message creation parameters
+# How many event generators
+#Events.nrof = 2
+# Class of the first event generator
+#Events1.class = ExternalEventsQueue
+#Events1.filePath = Simulation_V/public_key.txt
+# Class of the second event generator
+#Events2.class = ExternalEventsQueue
+#Events2.filePath = Simulation_V/frag_msg.txt
+
+Events.nrof = 2
+Events1.class = MessageEventGenerator
+Events1.interval = 80,100
+Events1.hosts = 0,20
+Events1.prefix = K
+#Events1.size = 1024k,2M
+Events1.size = 1k,2k
+Events1.time = 0, 250000
+Events2.class = MessageEventGenerator
+Events2.interval = 80,100
+Events2.hosts = 0,20
+Events2.prefix = M
+Events2.size = 260k,265k
+Events2.time = 250000, 1000000
+
+
+## Reports - all report names have to be valid report classes
+Report.nrofReports = 2
+Report.reportDir = Simulation_V0_Fix
+Report.report1 = MessageStatsReport
+Report.report2 = BufferOccupancyReport
+
+
+## Optimization settings -- these affect the speed of the simulation, see World class for details.
+Optimization.cellSizeMult = 5
+Optimization.randomizeUpdateOrder = true
